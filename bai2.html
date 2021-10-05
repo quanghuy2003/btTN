@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function tim(arr,number){
+        let indexOfNumber = -1;
+        for (let i = 0 ;i<arr.length;i++){
+            if(arr[i] ==number){
+                indexOfNumber = i;
+            }
+        }
+        return indexOfNumber;
+    }
+    let arr = [1,23,4,67,6,64,57,];
+    alert (tim(arr,1))
+</script>
+</body>
+</html>
